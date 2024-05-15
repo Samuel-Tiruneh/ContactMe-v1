@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppin',sans-serif;
+}
+body{
+    background: black;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-dev-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #333;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.contact-dev-img-container{
+    padding: 20px 0;
+}
+.contact-dev-img-container img{
+    border-radius: 50%;
+}
+.contact-dev-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-dev-info-container h1{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.contact-dev-info-container h3{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: gold;
+    padding-bottom: 10px;
+
+}
+.contact-dev-info-container p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+.contact-dev-socials-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-dev-socials-container a{
+    text-decoration: none;
+    color: #fff;
+    background: #616060;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-dev-socials-container a:hover{
+    background: gold;
+    font-weight: 500;
+    transition: .6s;
+  
+}
+
+@media screen and (max-width: 660px){
+    .contact-dev-container{
+        width: 300px;
+  
+    }
+
+}
